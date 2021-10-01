@@ -9,6 +9,10 @@
     "url": "https://www.labnol.org"
   },
   "private": false,
+  "engines": {
+    "node": "14.18.0",
+    "npm": "7.24.1"
+  },
   "scripts": {
     "tailwind": "npx tailwind build src/tailwind.css -o src/index.css",
     "prestart": "npm run tailwind",
