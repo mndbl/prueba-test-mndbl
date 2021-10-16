@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Business Plan', href: '/business-plan' },
   { name: 'Operations', href: '#' },
   { name: 'Corporate Structure', href: '/corporate-structure' },
-  { name: 'Hotel Operations', href: '#' },
+  { name: 'Hotel Operations', href: '/hotel-operations' },
   { name: 'Financials', href: '#' },
   { name: 'Marketing Plan', href: '#' },
   { name: 'Strategic Management', href: '#' },

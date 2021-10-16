@@ -4,17 +4,19 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { About } from "./pages/About";
 import { Navbar } from "./partials/Navbar";
 import { Chart } from "./pages/Chart";
+import { HotelOperation } from "./pages/HotelOperation";
 
 const App = () => {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Switch>
-        <Route path="/about" component={About}/>
-        <Route path="/corporate-structure" component={Chart}/>
-        <Route path="/" component={Home}/>
+        <Route path="/about" component={About} />
+        <Route path="/corporate-structure" component={Chart} />
+        <Route path="/hotel-operations" component={HotelOperation} />
+        <Route path="/" component={Home} />
       </Switch>
-      <Footer/>
+      <Footer />
     </Router>
   );
 };

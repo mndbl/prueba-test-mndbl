@@ -5,7 +5,7 @@ export function Chart(){
       <>
         <img className="lg:w-11/12 mx-auto" src={chart} alt="" />
         <div className="grid grid-cols-2 lg:grid-cols-4">
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               CFO duties and responsibilities of the job
             </div>
@@ -36,7 +36,7 @@ export function Chart(){
               </ul>
             </div>
           </div>
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               Accountant Job Responsibilities
             </div>
@@ -107,7 +107,7 @@ export function Chart(){
               </ul>
             </div>
           </div>
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               General Manager Responsibilities
             </div>
@@ -126,7 +126,7 @@ export function Chart(){
               </ul>
             </div>
           </div>
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               Hotel Manager duties and Responsibilities
             </div>
@@ -158,7 +158,7 @@ export function Chart(){
               </ul>
             </div>
           </div>
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               Human Resources Manager Job Responsibilities
             </div>
@@ -219,7 +219,7 @@ export function Chart(){
             </div>
           </div>
 
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               Recruitment Manager
             </div>
@@ -265,7 +265,7 @@ export function Chart(){
             </div>
           </div>
 
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               Staff Manager
             </div>
@@ -289,7 +289,7 @@ export function Chart(){
             </div>
           </div>
 
-          <div className="bg-blue-200 mx-2 rounded-md shadow-md text-white mt-8">
+          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
             <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
               Marketing director
             </div>
