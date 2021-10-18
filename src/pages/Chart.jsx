@@ -1,16 +1,27 @@
 import chart from '../assets/chart.png'
 
+const CardStructure =({tittle, children})=>{
+  return (
+    <>
+<div className="bg-blue-300 mx-2 rounded-md shadow-md text-gray-700 mt-8">
+            <div className="bg-blue-500 text-white rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
+{tittle}
+            </div>
+            <div className="px-4 py-2 text-justify text-xs">
+            {children}
+            </div>
+            </div>
+            </>
+  )
+}
+
 export function Chart(){
     return (
       <>
         <img className="lg:w-11/12 mx-auto" src={chart} alt="" />
         <div className="grid grid-cols-2 lg:grid-cols-4">
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              CFO duties and responsibilities of the job
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
-              <p>
+            <CardStructure tittle="CFO duties and responsibilities of the job">
+            <p>
                 Autocratic leadership As part of an executive management team,
                 the CFO will have interaction with various members of a company,
                 both senior and junior. A CFO job description should include:
@@ -34,13 +45,10 @@ export function Chart(){
                   Reviewing all formal finance, HR and IT related procedures.
                 </li>
               </ul>
-            </div>
-          </div>
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              Accountant Job Responsibilities
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
+              </CardStructure>
+          
+          <CardStructure tittle="Accountant Job Responsibilities">
+
               <p>
                 Provides financial information to management by researching and
                 analyzing accounting data; preparing reports.
@@ -105,14 +113,11 @@ export function Chart(){
                   business practices.
                 </li>
               </ul>
-            </div>
-          </div>
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              General Manager Responsibilities
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
-              <p>Overseeing daily business operations.</p>
+            
+          </CardStructure>
+            
+          <CardStructure tittle="General Manager Responsibilities">
+    <p>Overseeing daily business operations.</p>
               <ul className="list-disc ml-4">
                 <li>Developing and implementing growth strategies.</li>
                 <li>Training low-level managers and staff.</li>
@@ -124,14 +129,12 @@ export function Chart(){
                 <li>Researching and identifying growth opportunities.</li>
                 <li>Generating reports and giving presentations.</li>
               </ul>
-            </div>
-          </div>
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              Hotel Manager duties and Responsibilities
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
-              <p>
+          </CardStructure>
+            
+            
+          <CardStructure tittle="Hotel Manager duties and Responsibilities">
+
+            <p>
                 Servant leadership plan, implement and manage overall hotel
                 daily operations.
               </p>
@@ -156,13 +159,10 @@ export function Chart(){
                 <li>Ensure safety and adherence to rules and regulations.</li>
                 <li>Prepare and manage schedules and shifts.</li>
               </ul>
-            </div>
-          </div>
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              Human Resources Manager Job Responsibilities
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
+          </CardStructure>
+            
+          <CardStructure tittle="Human Resources Manager Job Responsibilities">
+
               <p>
                 Enhances the organization’s human resources by planning,
                 implementing, and evaluating employee relations and human
@@ -216,15 +216,11 @@ export function Chart(){
                   recommending human resource policies and procedures.
                 </li>
               </ul>
-            </div>
-          </div>
+          </CardStructure>
+            
 
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              Recruitment Manager
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
-              <p></p>
+          <CardStructure tittle="Recruitment Manager">
+
               <ul className="list-disc ml-4">
                 <li>
                   Update current and design new recruiting procedures (e.g. job
@@ -262,14 +258,11 @@ export function Chart(){
                   with HR professionals, colleges and other partners
                 </li>
               </ul>
-            </div>
-          </div>
+          </CardStructure>
+            
+              
+          <CardStructure tittle="Staff Manager">
 
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              Staff Manager
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
               <p>
                 A staff manager oversees a team of employees. Staff managers
                 work in every industry, with duties varying greatly by each
@@ -286,14 +279,11 @@ export function Chart(){
                 their staff, assigning accounts and duties, and identifying
                 problems and finding ways to overcome them.
               </p>
-            </div>
-          </div>
+          </CardStructure>
+           
 
-          <div className="bg-blue-300 mx-2 rounded-md shadow-md text-white mt-8">
-            <div className="bg-blue-500 rounded-md uppercase -mt-8 py-4 w-4/5 mx-auto text-center">
-              Marketing director
-            </div>
-            <div className="px-4 py-2 text-justify text-xs">
+          <CardStructure tittle="Marketing director">
+
               <ul className="list-disc ml-4">
                 <p>
                   Democratic leadershipDepending on industry focus and the
@@ -363,8 +353,8 @@ export function Chart(){
                   standards.
                 </li>
               </ul>
-            </div>
-          </div>
+          </CardStructure>
+           
         </div>
       </>
     );
