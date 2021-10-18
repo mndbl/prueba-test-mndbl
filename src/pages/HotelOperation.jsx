@@ -411,6 +411,44 @@ export function HotelOperation() {
               liquid. Let them soak the chemicals from the liquid.
             </li>
           </List>
+
+
+<SubTitle>Make the bed.</SubTitle>
+<List>
+
+<li>Start dusting from an extreme inside corner of the room and work outwards.</li>
+<li>Clean wipe TV.</li>
+<li>Straighten the guest items.</li>
+<li>Sweep the room and patio floor.</li>
+<li>Mop the room and patio floor.</li>
+<li>Clean the glasses, mugs, and tray.</li>
+<li>Sanitize glasses, mugs, telephone device, and TV remote.</li>
+<li>Inspect the condition of bathroom slippers and bathrobe.</li>
+<li>Replace if soiled.</li>
+<li>Close the patio door.</li>
+<li>Close all the curtains.</li>
+<li>Clean the entrance door.</li>
+<li>Close and lock the room door.</li>
+<li>Report any damage spotted to the supervisor.</li>
+<li>SOPs for Cleaning the Guest Bath Room.</li>
+<li>The SOP for cleaning the guest bathroom is given below.</li>
+<li>Open bathroom ventilation.</li>
+<li>Sweep the bathroom floor.</li>
+<li>Scrub and finish the platform, bathtub, and basin.</li>
+<li>Scrub and finish the toilet bowl, rim, ring, and hinge.</li>
+<li>Wipe the mirror.</li>
+<li>Clean bathroom walls using wet mop or sponge.</li>
+<li>Replace amenities such as toilet roll, toilet block, shampoo, conditioners, and moisturizers.</li>
+<li>Replace bathroom mat.</li>
+<li>Wipe down shower curtain working from top to bottom with a dry cloth.</li>
+<li>Replace bath towels and hand towels.</li>
+<li>Replace the dustbin liner.</li>
+<li>Close the bathroom ventilation.</li>
+<li>Clean the bathroom door.</li>
+<li>Keep the bathroom door open after cleaning.</li>
+<li>Check bathroom doormat. Replace if required.</li>
+<li>Report any damage spotted to the supervisor.</li>
+</List>
         </div>
       </div>
     </div>
@@ -426,5 +464,5 @@ const ParagraphSm = ({ children }) => {
 };
 
 const List = ({ children }) => {
-  return <ul className="list-disc ml-4">{children}</ul>;
+  return <ul className="list-disc ml-4 text-sm">{children}</ul>;
 };
