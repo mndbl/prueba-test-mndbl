@@ -5,14 +5,16 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
+  { name: 'Going Green', href: '/going-green' },
   { name: 'Business Plan', href: '/business-plan' },
-  { name: 'Operations', href: '#' },
+  { name: 'Operations', href: '/operations' },
   { name: 'Corporate Structure', href: '/corporate-structure' },
+  { name: 'Customer Service', href: '/customer-service' },
   { name: 'Hotel Operations', href: '/hotel-operations' },
-  { name: 'Financials', href: '#' },
-  { name: 'Marketing Plan', href: '#' },
-  { name: 'Strategic Management', href: '#' },
-  { name: 'Future Development', href: '#' },
+  { name: 'Financials', href: '/financials' },
+  { name: 'Marketing Plan', href: '/marketing-plan' },
+  { name: 'Strategic Management', href: '/strategic-management' },
+  { name: 'Future Development', href: 'future-development' },
 ]
 
 export function Navbar() {
@@ -20,7 +22,7 @@ export function Navbar() {
 <>
         <Popover>
             <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
-              <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+              <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start shadow-xl" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="#">
@@ -38,9 +40,9 @@ export function Navbar() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-4">
+                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-2">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="text-sm text-gray-500 hover:text-gray-900">
+                    <a key={item.name} href={item.href} className="text-sm no-underline text-gray-500 hover:text-gray-900">
                       {item.name}
                     </a>
                   ))}
