@@ -35,8 +35,9 @@ export function MarketingPlan() {
                     </p>
                 </div>
                 <div className="w-full lg:w-1/2">
-
-                    <video className="sm:mx-auto -mt-12 lg:mt-12 w-2/3 lg:w-2/3" src={MobileMarketing} autoPlay="true" loop="true"></video>
+                    <a title="Agradecimientos a StorySet" href="https://storyset.com/business">
+                        <video className="sm:mx-auto -mt-12 lg:mt-12 w-2/3 lg:w-2/3" src={MobileMarketing} autoPlay="true" loop="true"></video>
+                    </a>
                 </div>
             </div>
             <div className="text-sm mx-4 lg:mx-24 border-4 border-blue-800 rounded-lg my-6 p-6">
