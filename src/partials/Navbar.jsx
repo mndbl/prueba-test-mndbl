@@ -7,7 +7,6 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Going Green', href: '/going-green' },
   { name: 'Business Plan', href: '/business-plan' },
-  { name: 'Operations', href: '/operations' },
   { name: 'Corporate Structure', href: '/corporate-structure' },
   { name: 'Customer Service', href: '/customer-service' },
   { name: 'Hotel Operations', href: '/hotel-operations' },
