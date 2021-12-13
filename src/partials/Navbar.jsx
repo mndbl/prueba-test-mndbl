@@ -5,8 +5,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
+  { name: 'Contact Us', href: '/contact-us' },
   { name: 'Going Green', href: '/going-green' },
-  { name: 'Business Plan', href: '/business-plan' },
+  { name: 'Negotiation', href: '/negotiation' },
   { name: 'Corporate Structure', href: '/corporate-structure' },
   { name: 'Customer Service', href: '/customer-service' },
   { name: 'Hotel Operations', href: '/hotel-operations' },
@@ -14,6 +15,7 @@ const navigation = [
   { name: 'Marketing Plan', href: '/marketing-plan' },
   { name: 'Strategic Management', href: '/strategic-management' },
   { name: 'Future Development', href: 'future-development' },
+  { name: 'Time Line', href: 'time-line' },
 ]
 
 export function Navbar() {
