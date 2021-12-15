@@ -12,6 +12,8 @@ import { MarketingPlan } from "./pages/MarketingPlan";
 import { ContactUs } from "./pages/ContactUs";
 import { TimeLine } from "./pages/TimeLine";
 import { BusinessPlan } from "./pages/BusinessPlan";
+import { Financials } from "./pages/Financials";
+import { Estrategic } from "./pages/Estrategic";
 
 const App = () => {
   return (
@@ -27,8 +29,10 @@ const App = () => {
         <Route path="/marketing-plan" component={MarketingPlan} />
         <Route path="/hotel-operations" component={HotelOperation} />
         <Route path="/negotiation" component={BusinessPlan} />
-        <Route path="/time-line" component={TimeLine} />
-        <Route path="/" component={Home} />
+        <Route path="/future-development" component={TimeLine} />
+        <Route path="/financials-plan" component={Financials} />
+        <Route path="/strategic-management" component={Estrategic} />
+        <Route exact path="/" component={Home} />
       </Switch>
       <Footer />
     </Router>
