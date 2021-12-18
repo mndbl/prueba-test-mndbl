@@ -15,7 +15,7 @@ const navigation = [
   { name: 'Financials', href: '/financials-plan' },
   { name: 'Marketing Plan', href: '/marketing-plan' },
   { name: 'Strategic Management', href: '/strategic-management' },
-  { name: 'Future Development', href: 'future-development' },
+  { name: 'Future Development', href: '/future-development' },
 ]
 
 export function Navbar() {
@@ -43,8 +43,8 @@ export function Navbar() {
             </div>
             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-2">
               {navigation.map((item) => (
-                <NavLink activeClassName='border-b-2 border-blue-500'
-                  key={item.name} to={item.href} className="text-sm no-underline text-gray-500 hover:text-gray-900">
+                <NavLink key={item.name} to={item.href}
+                  className={isActive ? 'border-b-2 border-blue-500' : '' + " text-sm no-underline text-gray-500 hover:text-gray-900"}>
                   {item.name}
                 </NavLink>
               ))}

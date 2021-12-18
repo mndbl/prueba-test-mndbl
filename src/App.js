@@ -1,6 +1,6 @@
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { Home } from "./pages/Home";
 import { Footer } from './partials/Footer';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { About } from "./pages/About";
 import { Navbar } from "./partials/Navbar";
 import { Chart } from "./pages/Chart";
@@ -20,6 +20,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Switch>
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact-us" component={ContactUs} />
         <Route path="/about/our-neighbourhood" component={OurNeig} />
@@ -32,7 +33,6 @@ const App = () => {
         <Route path="/future-development" component={TimeLine} />
         <Route path="/financials-plan" component={Financials} />
         <Route path="/strategic-management" component={Estrategic} />
-        <Route exact path="/" component={Home} />
       </Switch>
       <Footer />
     </Router>
